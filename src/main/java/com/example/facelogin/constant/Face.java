@@ -1,8 +1,8 @@
 package com.example.facelogin.constant;
 
 public class Face {
-    public static String API_KEY = "yoFf4zV9IjNuUcnADn8GAird0vIBx0xM";
-    public static String API_SECRET = "xiMiPXNfTM7rkihfC1QwAwzhBijx1i0f";
-    public static String DISPLAY_NAME = "YJM_LOGIN";
-    public static String OUTER_ID = "YJM_DISPLAY";
+    public static String API_KEY = "换成自己申请的api_key";
+    public static String API_SECRET = "换成自己申请的api_secret";
+    public static String DISPLAY_NAME = "自己命名";
+    public static String OUTER_ID = "自己命名";
 }
