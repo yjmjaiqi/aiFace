@@ -1,0 +1,21 @@
+server:
+  port: 8081
+logging:
+  level:
+    com:
+      example:
+        facelogin:
+          util:
+            HttpUtil: debug
+  appenders:
+    Console:
+      name: Console
+      target: SYSTEM_OUT
+      PatternLayout:
+        Pattern: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+  loggers:
+    - name: com.example.facelogin.util.HttpUtil
+      level: debug
+      additivity: false
+      AppenderRef:
+        - ref: Console
